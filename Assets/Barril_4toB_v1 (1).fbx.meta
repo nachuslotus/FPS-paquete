@@ -1,15 +1,25 @@
 fileFormatVersion: 2
-guid: 999f35ae3bb0250448e8ddd3892aca7d
+guid: be6677c84b956f44a8ee43f5aaf74fef
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Material
+    2100000: Barril
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Caja
-  externalObjects: {}
+    4300000: Barril
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barril
+    second: {fileID: 2100000, guid: 1c8bfa49157168a46ba2b67c40d05be6, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: barril textura 3
+    second: {fileID: 2800000, guid: ec04577cf64d31a469a5ab9e622bbe64, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
