@@ -9,7 +9,7 @@ public class DeteccionDeColiciones : MonoBehaviour
     {
         Debug.Log("Contacto con" + collision.gameObject.name);
 
-        if (collision.gameObject.name == "Player")
+        if (collision.gameObject.name == "Sphere")
         {
             Destroy(gameObject);
         }
