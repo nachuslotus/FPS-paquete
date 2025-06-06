@@ -10,7 +10,7 @@ public class UImanager : MonoBehaviour
 
     public void UpdateMoneyText(string money)
     {
-        Txt_Money.text = "$" +money; 
+        Txt_Money.text = "$" + money; 
      
     }
 
