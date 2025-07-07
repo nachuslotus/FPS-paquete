@@ -6,6 +6,7 @@ public class HealthManager : MonoBehaviour
 {
     public int healthpoints;
     public UImanager UImanager;
+    public HealthPoint HealthPoint;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +20,11 @@ public class HealthManager : MonoBehaviour
            Debug.Log("Perdiste");
            return false;
       }
+      
       healthpoints -= damageamount;
       UImanager.UpdateHealthText(healthpoints.ToString());
-      return true;
+        return true;
    }
+
+   
 }
